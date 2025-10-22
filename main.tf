@@ -1,10 +1,10 @@
 provider "aws" {
-region = "us-east-1"
+region = "ap-south-2"
 }
 
 resource "aws_instance" "one" {
-ami = "ami-052064a798f08f0d3"
-instance_type = "t2.micro"
+ami = "ami-047087104d2773d13"
+instance_type = "t3.micro"
 tags = {
 Name = "hcp-server"
 }
